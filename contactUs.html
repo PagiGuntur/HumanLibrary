@@ -1,0 +1,92 @@
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .lokasi{
+            text-align: center;
+            width: 100%;
+            float: left;
+            ;
+        }
+        .contact{
+            width: 50%;
+            float: left;
+            background-color: whitesmoke;
+            height: 500px;
+        }
+        .contact a{
+            text-decoration: none;
+        }
+        h1{
+            margin: 30px auto;
+            text-align: center;
+        }
+        p{
+            margin: 15px 30px;
+        }
+        textarea{
+            display: inline-block;
+            border: 1px whitesmoke #cac;
+            border-radius: 4px;
+            padding: 8px 3px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UKM</h1>
+        <img src="img/loguhm.png" alt="logo-hm">
+        <p>unjuge someone</p>
+    </header>
+    <nav>
+        <div class="nav-left">
+            <a href="Home.html">Home</a>
+            <a href="event.html">Event</a>    
+        </div>
+        <div class="nav-right">
+            <a href="aboutUs.html">About Us</a>
+            <a href="contactUs.html">Contact Us</a>
+            <a href="registration.html">Registration</a>
+        </div>
+    </nav>
+    <main>
+        <div class="contact">
+            <h1>CONTACT INFO</h1>
+            <p>PIC      : <a href="http://www.instagram/pagi.guntur"> Pagi Guntur</a> </p> 
+            <p>no telp  : (0261) 67328 </p>
+            <p>email    : ukmhumanlibrary@machung.ac.id</p>
+            <p>alamat    : Universitas Ma Chung</p>
+    </div>
+    <div class="contact">
+        <h1>SEND US A MESSAGE</h1>
+        <form action="contactUs.html" method="get">
+            <p>
+                <label class="col-25" for="fname">Fullname</label>
+                <input class="col-75" type="text" name="fullname" id="fname">
+            </p>
+            <p>
+                <label class="col-25" for="email">Email</label>
+                <input class="col-75" type="email" name="email" id="email">
+            </p>
+            <p>
+                <label class="col-25" for="subject">Subject</label>
+                <input class="col-75" type="text" name="judul" id="subject">
+            </p>
+            <p>
+                <label class="col-25" for="des">Your Message</label>
+                <textarea name="desc" id="desc" cols="29" rows="4"></textarea>
+            </p>
+            <input type="submit" value="Submit" onclick="alert('Pesan anda sudah terkirim')">
+        </form>
+    </div>
+    </main> 
+    <div class="lokasi">
+        <h1>LOKASI KAMI DI MAP GOOGLE</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.4024432865767!2d112.58684021428452!3d-7.957296294268654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78825bc65e176b%3A0x954b33ee83283be2!2sUniversitas%20Ma%20Chung!5e0!3m2!1sen!2sid!4v1603006200338!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <footer>
+        <a href="#">Gawe Pagi Guntur</a>
+    </footer>
+</body>
