@@ -1,0 +1,86 @@
+    /* membuat template desain pada web*/
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: normal;
+        margin:0px}
+    /*membuat kepala*/
+    header {
+        padding: 30px;
+        text-align: center;
+    }
+    /*Mengatur navigasi*/
+    nav{
+        position: sticky;
+        display: block;
+        overflow: hidden;
+        padding: 14px 16px;
+        background-color: white;
+        font-size: x-large;
+    }
+    /*Mengatur a dan biar kelap kelip saat dipencet*/
+    nav a{
+        text-decoration: none;
+        padding: 10px;
+        color: royalblue;
+    }
+    nav a:hover{
+        background-color: whitesmoke;
+        color: rgb(13, 2, 172);
+    }
+    /*Membuat bar navigasi berada di kiri*/
+    .nav-left{
+        float: left;
+    }
+    /*Membuat bar navigasi berada di kanan*/
+    .nav-right{
+        float: right;
+    }
+    footer{
+        width: 100%;
+        float: left;
+        background-color: whitesmoke;
+        text-align: center;
+        padding: 30px;
+        font-size: small;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    form{
+        margin: 25px auto;
+        width: 500px;
+        display: table;
+    }
+    input[type=text], input[type=email]{
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px whitesmoke #cac;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=submit]{
+        width: 100%;
+        background-color: blue;
+        color: blanchedalmond;
+        padding: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type=submit]:hover{
+        background-color: navy;
+    }
+    .col-25{
+        float: left;
+        width: 40%;
+        margin-top: 20px;
+    }
+    .col-75{
+        float: left;
+        width: 60%;
+        
+    }
+    main{
+        font-family: 'Courier New', Courier, monospace;
+    }
